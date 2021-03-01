@@ -246,6 +246,8 @@ sudo ldconfig
 # Start building
 ./autogen.sh && ./configure && make
 sudo make install
+
+git submodule update --init
 ```
 
 You may need to manually install missing softwares.
